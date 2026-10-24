@@ -65,6 +65,46 @@ This project aims to develop practical knowledge of SIEM operations, KQL, securi
 
 This project is for educational and defensive cybersecurity purposes. Testing will be conducted only in authorised environments using controlled or simulated security events.
 
+## Project Progress
+
+### Completed Portfolio Components
+
+- Created KQL queries for investigating failed and successful Windows logons.
+- Documented a proposed repeated-failed-login detection.
+- Documented the lab architecture and cost-safety considerations.
+- Created a SOC analyst investigation checklist.
+- Prepared simulated incident reports covering repeated failed logins and unusual successful logons.
+
+### Skills Demonstrated
+
+- Kusto Query Language (KQL)
+- Windows authentication event analysis
+- Security alert triage and investigation planning
+- Detection logic and false-positive assessment
+- Incident documentation and response recommendations
+- Security monitoring concepts using Microsoft Sentinel
+- GitHub documentation and version control
+
+### Current Limitations
+
+The lab workspace has been created and Microsoft Sentinel enabled, but Windows Security Event ingestion has not yet been confirmed.
+
+The KQL queries remain drafts pending validation against suitable event data. The incident reports are simulated exercises, not confirmed security incidents. A live Sentinel analytics rule has not yet been validated as operational.
+
+### Cost and Safety Approach
+
+This project prioritises cost awareness and safe configuration. No additional endpoint agents are being installed while data-collection eligibility and cost implications are being reviewed. Azure pay-as-you-go remains disabled.
+
+### Next Objectives
+
+- Identify a suitable and affordable Windows event-collection method.
+- Validate the KQL queries against event data when available.
+- Refine detection logic and document testing results.
+- Configure a live analytics rule if prerequisites are met.
+- Capture sanitised evidence and publish a final project summary.
+
+
+
 Project components will be updated as implementation and testing progress.
 
 **Author:** Abongile Ngxitho  
