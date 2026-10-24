@@ -1,0 +1,11 @@
+
+SecurityEvent
+| where EventID == 4624
+| where TimeGenerated > ago(24h)
+| project
+    TimeGenerated,
+    Computer,
+    Account = TargetUserName,
+    LogonType,
+    SourceIP = IpAddress
+| order by TimeGenerated desc
